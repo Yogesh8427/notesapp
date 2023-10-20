@@ -1,0 +1,43 @@
+
+.adddata{
+    margin: 5% 3% 2%;
+    display: flex;
+}
+.form{
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.151);
+    justify-content: center;
+     padding: 30px;
+     border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: x-large;
+}
+input[type="text"]{
+    font-size: x-large;
+    margin: 2% 0 1%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+input[type="submit"]{
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    margin: 2% 0 1%;
+    background-color: green;
+    color: white;
+    
+}
+textarea{
+    font-size: x-large;
+    margin: 2% 0 1%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.63);
+}
